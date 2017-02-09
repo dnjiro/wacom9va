@@ -1,0 +1,5 @@
+//
+// Prefix header for all source files of the 'wacom9va' target in the 'wacom9va' project.
+//
+
+#include <Carbon/Carbon.h>

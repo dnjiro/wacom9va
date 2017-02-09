@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	20286C28FDCF999611CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = CE339BBF1E41687900153E66 /* wacom9va */;
+		activeTarget = 8D0C4E890486CD37000505A6 /* wacom9va */;
+		breakpoints = (
+			CED9CEEC1E48474400E7D2A7 /* main.c:204 */,
+		);
+		codeSenseManager = CE339BC61E41689800153E66 /* Code sense */;
+		executables = (
+			CE339BBF1E41687900153E66 /* wacom9va */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					289,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 508299007;
+			PBXWorkspaceStateSaveDate = 508299007;
+		};
+		perUserProjectItems = {
+			CE8C25A11E4C09F600A71E93 /* PlistBookmark */ = CE8C25A11E4C09F600A71E93 /* PlistBookmark */;
+			CE8C25A21E4C09F600A71E93 /* PBXTextBookmark */ = CE8C25A21E4C09F600A71E93 /* PBXTextBookmark */;
+			CE8C25A31E4C09F600A71E93 /* PBXTextBookmark */ = CE8C25A31E4C09F600A71E93 /* PBXTextBookmark */;
+			CE8C25A41E4C09F600A71E93 /* PlistBookmark */ = CE8C25A41E4C09F600A71E93 /* PlistBookmark */;
+			CE8C25A51E4C09F600A71E93 /* PBXTextBookmark */ = CE8C25A51E4C09F600A71E93 /* PBXTextBookmark */;
+			CE8C25A61E4C09F600A71E93 /* PlistBookmark */ = CE8C25A61E4C09F600A71E93 /* PlistBookmark */;
+			CE8C25A71E4C09F600A71E93 /* PBXTextBookmark */ = CE8C25A71E4C09F600A71E93 /* PBXTextBookmark */;
+			CE8C25AA1E4C09F600A71E93 /* PBXTextBookmark */ = CE8C25AA1E4C09F600A71E93 /* PBXTextBookmark */;
+			CE8C25AB1E4C09F600A71E93 /* PBXTextBookmark */ = CE8C25AB1E4C09F600A71E93 /* PBXTextBookmark */;
+			CE8C25AD1E4C09F600A71E93 /* PBXTextBookmark */ = CE8C25AD1E4C09F600A71E93 /* PBXTextBookmark */;
+			CED9D7531E4B0A6A00E7D2A7 /* PBXTextBookmark */ = CED9D7531E4B0A6A00E7D2A7 /* PBXTextBookmark */;
+			CED9D7541E4B0A6A00E7D2A7 /* PBXTextBookmark */ = CED9D7541E4B0A6A00E7D2A7 /* PBXTextBookmark */;
+			CED9D7551E4B0A6A00E7D2A7 /* PBXTextBookmark */ = CED9D7551E4B0A6A00E7D2A7 /* PBXTextBookmark */;
+		};
+		sourceControlManager = CE339BC51E41689800153E66 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	20286C2BFDCF999611CA2CEA /* main.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {870, 5978}}";
+			sepNavSelRange = "{11576, 0}";
+			sepNavVisRange = "{11370, 1161}";
+			sepNavWindowFrame = "{{463, 67}, {803, 676}}";
+		};
+	};
+	8D0C4E890486CD37000505A6 /* wacom9va */ = {
+		activeExec = 0;
+		executables = (
+			CE339BBF1E41687900153E66 /* wacom9va */,
+		);
+	};
+	CE339BBF1E41687900153E66 /* wacom9va */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = wacom9va;
+		savedGlobals = {
+		};
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	CE339BC51E41689800153E66 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	CE339BC61E41689800153E66 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	CE8C25A11E4C09F600A71E93 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D0C4E960486CD37000505A6 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleIdentifier,
+		);
+		name = "/01/wacom9va/wacom9va scrlView/Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	CE8C25A21E4C09F600A71E93 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 20286C2BFDCF999611CA2CEA /* main.c */;
+		name = "main.c: 185";
+		rLen = 0;
+		rLoc = 6138;
+		rType = 0;
+		vrLen = 445;
+		vrLoc = 0;
+	};
+	CE8C25A31E4C09F600A71E93 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 20286C2BFDCF999611CA2CEA /* main.c */;
+		name = "main.c: 185";
+		rLen = 0;
+		rLoc = 6138;
+		rType = 0;
+		vrLen = 445;
+		vrLoc = 0;
+	};
+	CE8C25A41E4C09F600A71E93 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D0C4E960486CD37000505A6 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleIdentifier,
+		);
+		name = "/01/wacom9va/wacom9va scrlView/Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	CE8C25A51E4C09F600A71E93 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 20286C2BFDCF999611CA2CEA /* main.c */;
+		name = "main.c: 185";
+		rLen = 0;
+		rLoc = 6138;
+		rType = 0;
+		vrLen = 445;
+		vrLoc = 0;
+	};
+	CE8C25A61E4C09F600A71E93 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D0C4E960486CD37000505A6 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleIdentifier,
+		);
+		name = "/01/wacom9va/wacom9va scrlView/Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	CE8C25A71E4C09F600A71E93 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 20286C2BFDCF999611CA2CEA /* main.c */;
+		name = "main.c: 185";
+		rLen = 0;
+		rLoc = 6138;
+		rType = 0;
+		vrLen = 599;
+		vrLoc = 911;
+	};
+	CE8C25AA1E4C09F600A71E93 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 20286C2BFDCF999611CA2CEA /* main.c */;
+		name = "main.c: 341";
+		rLen = 0;
+		rLoc = 11576;
+		rType = 0;
+		vrLen = 1161;
+		vrLoc = 11370;
+	};
+	CE8C25AB1E4C09F600A71E93 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CE8C25AC1E4C09F600A71E93 /* CGContext.h */;
+		name = "CGContext.h: 490";
+		rLen = 82;
+		rLoc = 18246;
+		rType = 0;
+		vrLen = 1942;
+		vrLoc = 17353;
+	};
+	CE8C25AC1E4C09F600A71E93 /* CGContext.h */ = {
+		isa = PBXFileReference;
+		name = CGContext.h;
+		path = /Xcode3.1.4/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/CoreGraphics.framework/Versions/A/Headers/CGContext.h;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {756, 11914}}";
+			sepNavSelRange = "{18246, 82}";
+			sepNavVisRange = "{17353, 1942}";
+			sepNavWindowFrame = "{{111, 8}, {688, 681}}";
+		};
+	};
+	CE8C25AD1E4C09F600A71E93 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CE8C25AE1E4C09F600A71E93 /* CGGeometry.h */;
+		name = "CGGeometry.h: 26";
+		rLen = 6;
+		rLoc = 406;
+		rType = 0;
+		vrLen = 596;
+		vrLoc = 0;
+	};
+	CE8C25AE1E4C09F600A71E93 /* CGGeometry.h */ = {
+		isa = PBXFileReference;
+		name = CGGeometry.h;
+		path = /Xcode3.1.4/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/CoreGraphics.framework/Versions/A/Headers/CGGeometry.h;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {641, 3794}}";
+			sepNavSelRange = "{406, 6}";
+			sepNavVisRange = "{0, 596}";
+			sepNavWindowFrame = "{{19, 92}, {688, 681}}";
+		};
+	};
+	CED9CEEC1E48474400E7D2A7 /* main.c:204 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 20286C2BFDCF999611CA2CEA /* main.c */;
+		functionName = "AppEventHandler()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 204;
+		location = wacom9va;
+		modificationTime = 508234342.1912581;
+		state = 2;
+	};
+	CED9D1B31E4858D200E7D2A7 /* CGContext.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = CGContext.h;
+		path = /Xcode3.1.4/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/CoreGraphics.framework/Versions/A/Headers/CGContext.h;
+		sourceTree = "<absolute>";
+	};
+	CED9D3551E48ACD300E7D2A7 /* CGGeometry.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = CGGeometry.h;
+		path = /Xcode3.1.4/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/CoreGraphics.framework/Versions/A/Headers/CGGeometry.h;
+		sourceTree = "<absolute>";
+	};
+	CED9D7531E4B0A6A00E7D2A7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 20286C2BFDCF999611CA2CEA /* main.c */;
+		name = "main.c: 347";
+		rLen = 0;
+		rLoc = 11576;
+		rType = 0;
+		vrLen = 1138;
+		vrLoc = 11469;
+	};
+	CED9D7541E4B0A6A00E7D2A7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CED9D1B31E4858D200E7D2A7 /* CGContext.h */;
+		name = "CGContext.h: 490";
+		rLen = 82;
+		rLoc = 18246;
+		rType = 0;
+		vrLen = 1865;
+		vrLoc = 17429;
+	};
+	CED9D7551E4B0A6A00E7D2A7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CED9D3551E48ACD300E7D2A7 /* CGGeometry.h */;
+		name = "CGGeometry.h: 26";
+		rLen = 6;
+		rLoc = 406;
+		rType = 0;
+		vrLen = 577;
+		vrLoc = 0;
+	};
+}
