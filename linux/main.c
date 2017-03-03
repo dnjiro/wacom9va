@@ -3,7 +3,7 @@
 //
 //  Created by user on 17/02/26.
 //  Copyright __EVA*Project__ 2017. All rights reserved.
-//
+//  you need libgtk-3-dev, xserver-xorg-input-wacom
 
 #include <gtk/gtk.h>
 #include <gdk/gdk.h>
