@@ -127,8 +127,8 @@ void AddPolygonPoint(int in, int x, int y, int prs)
 gboolean cb_expose_event(GtkWidget *widget, cairo_t *cr, gpointer data)
 {
 	int in, pnt;
-	int ww = gdk_window_get_width(gtk_widget_get_window(window));
-	int hh = gdk_window_get_height(gtk_widget_get_window(window));
+	int ww = gdk_window_get_width(gtk_widget_get_window(widget));
+	int hh = gdk_window_get_height(gtk_widget_get_window(widget));
     if(offWidth!=ww || offHeight!=hh || offDelta != whDelta){//Resize offscreen
 		if(offscreen != NULL){
 			cairo_surface_destroy(offscreen);
@@ -142,7 +142,7 @@ gboolean cb_expose_event(GtkWidget *widget, cairo_t *cr, gpointer data)
 			cairo_t *qp = cairo_create(offscreen);
 			cairo_set_line_width(qp, 0);
 			cairo_set_source_rgb (qp, 0., 1., 0.);
-			cairo_new_sub_path (qp);		
+			cairo_new_path (qp);		
 			for(in=0; in < m_index; in++){
 				for(pnt=0; pnt< m_points[in]; pnt++){ 
 					MakeBrushLine(qp, in, pnt);
@@ -187,7 +187,7 @@ gint cb_button_release_event( GtkWidget *widget, GdkEventMotion *event, gpointer
 			cairo_t *qp = cairo_create(offscreen);
 			cairo_set_line_width(qp, 0.);
 			cairo_set_source_rgb (qp, 0., 1., 0.);
-			cairo_new_sub_path (qp);
+			cairo_new_path (qp);
 			
 			in = m_index-1;
 			for(pnt=0; pnt< m_points[in]; pnt++){ 
@@ -196,7 +196,7 @@ gint cb_button_release_event( GtkWidget *widget, GdkEventMotion *event, gpointer
 			
 			cairo_fill (qp);
 			cairo_destroy(qp);    
-			gdk_window_invalidate_rect(gtk_widget_get_window(window),NULL,FALSE);
+			gdk_window_invalidate_rect(gtk_widget_get_window(widget),NULL,FALSE);
 	}
     return TRUE;
 }
@@ -207,7 +207,7 @@ gint cb_scroll_event( GtkWidget *widget, GdkEventScroll *event, gpointer user_da
 	case GDK_SCROLL_DOWN:	whDelta += 10; break;	
 	case GDK_SCROLL_UP:	    whDelta -= 10; break;	
 	}
-	gdk_window_invalidate_rect(gtk_widget_get_window(window),NULL,FALSE);
+	gdk_window_invalidate_rect(gtk_widget_get_window(widget),NULL,FALSE);
 	return TRUE;
 }
 
